@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.steps.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 56.669 s - in com.example.steps.RunCucumberTest
