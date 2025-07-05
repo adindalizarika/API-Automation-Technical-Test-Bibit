@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="tests.RetrievePostsTest" time="0.928" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="24"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/adinda.lizarika/Documents/apiautomationbibit/target/test-classes:/Users/adinda.lizarika/Documents/apiautomationbibit/target/classes:/Users/adinda.lizarika/.m2/repository/io/rest-assured/rest-assured/5.3.2/rest-assured-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/adinda.lizarika/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/adinda.lizarika/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/adinda.lizarika/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/adinda.lizarika/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/adinda.lizarika/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/adinda.lizarika/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/adinda.lizarika/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/adinda.lizarika/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/json-path/5.3.2/json-path-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/rest-assured-common/5.3.2/rest-assured-common-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/xml-path/5.3.2/xml-path-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/json-schema-validator/5.3.2/json-schema-validator-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/adinda.lizarika/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/adinda.lizarika/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/adinda.lizarika/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/adinda.lizarika/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/adinda.lizarika/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/adinda.lizarika/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/adinda.lizarika/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/adinda.lizarika/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/adinda.lizarika/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/adinda.lizarika/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/adinda.lizarika/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/adinda.lizarika/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/adinda.lizarika/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/adinda.lizarika/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/adinda.lizarika/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/adinda.lizarika/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/adinda.lizarika/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-picocontainer/7.14.0/cucumber-picocontainer-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="24"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/adinda.lizarika/Documents/apiautomationbibit/target/surefire/surefirebooter-20250705190629777_3.jar /Users/adinda.lizarika/Documents/apiautomationbibit/target/surefire 2025-07-05T19-06-29_729-jvmRun1 surefire-20250705190629777_1tmp surefire_0-20250705190629777_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/adinda.lizarika/Documents/apiautomationbibit/target/test-classes:/Users/adinda.lizarika/Documents/apiautomationbibit/target/classes:/Users/adinda.lizarika/.m2/repository/io/rest-assured/rest-assured/5.3.2/rest-assured-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/adinda.lizarika/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/adinda.lizarika/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/adinda.lizarika/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/adinda.lizarika/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/adinda.lizarika/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/adinda.lizarika/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/adinda.lizarika/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/adinda.lizarika/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/json-path/5.3.2/json-path-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/rest-assured-common/5.3.2/rest-assured-common-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/xml-path/5.3.2/xml-path-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/adinda.lizarika/.m2/repository/io/rest-assured/json-schema-validator/5.3.2/json-schema-validator-5.3.2.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/json-schema-validator/2.2.14/json-schema-validator-2.2.14.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/jackson-coreutils-equivalence/1.0/jackson-coreutils-equivalence-1.0.jar:/Users/adinda.lizarika/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.0/jackson-databind-2.11.0.jar:/Users/adinda.lizarika/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.0/jackson-annotations-2.11.0.jar:/Users/adinda.lizarika/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.0/jackson-core-2.11.0.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/jackson-coreutils/2.0/jackson-coreutils-2.0.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/msg-simple/1.2/msg-simple-1.2.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/btf/1.3/btf-1.3.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/json-schema-core/1.2.14/json-schema-core-1.2.14.jar:/Users/adinda.lizarika/.m2/repository/com/github/java-json-tools/uri-template/0.10/uri-template-0.10.jar:/Users/adinda.lizarika/.m2/repository/org/mozilla/rhino/1.7.7.2/rhino-1.7.7.2.jar:/Users/adinda.lizarika/.m2/repository/com/sun/mail/mailapi/1.6.2/mailapi-1.6.2.jar:/Users/adinda.lizarika/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/adinda.lizarika/.m2/repository/com/googlecode/libphonenumber/libphonenumber/8.11.1/libphonenumber-8.11.1.jar:/Users/adinda.lizarika/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/adinda.lizarika/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/adinda.lizarika/.m2/repository/com/google/guava/guava/32.0.1-jre/guava-32.0.1-jre.jar:/Users/adinda.lizarika/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/adinda.lizarika/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/adinda.lizarika/.m2/repository/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar:/Users/adinda.lizarika/.m2/repository/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar:/Users/adinda.lizarika/.m2/repository/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-java/7.14.0/cucumber-java-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-core/7.14.0/cucumber-core-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-gherkin/7.14.0/cucumber-gherkin-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.14.0/cucumber-gherkin-messages-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/gherkin/26.2.0/gherkin-26.2.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/messages/22.0.0/messages-22.0.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/tag-expressions/5.0.6/tag-expressions-5.0.6.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/datatable/7.14.0/datatable-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-plugin/7.14.0/cucumber-plugin-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/docstring/7.14.0/docstring-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/html-formatter/20.4.0/html-formatter-20.4.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/junit-xml-formatter/0.2.0/junit-xml-formatter-0.2.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/ci-environment/9.2.0/ci-environment-9.2.0.jar:/Users/adinda.lizarika/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.14.0/cucumber-junit-platform-engine-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-engine/1.10.0/junit-platform-engine-1.10.0.jar:/Users/adinda.lizarika/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/adinda.lizarika/.m2/repository/io/cucumber/cucumber-picocontainer/7.14.0/cucumber-picocontainer-7.14.0.jar:/Users/adinda.lizarika/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar:/Users/adinda.lizarika/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/adinda.lizarika"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/24.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/adinda.lizarika/Documents/apiautomationbibit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/adinda.lizarika/Documents/apiautomationbibit/target/surefire/surefirebooter-20250705190629777_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="24.0.1"/>
+    <property name="user.name" value="adinda.lizarika"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.4.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/adinda.lizarika/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/j1/x8fn59wj0hg7m5h6gtztswxw0000gs/T/"/>
+    <property name="java.version" value="24.0.1"/>
+    <property name="user.dir" value="/Users/adinda.lizarika/Documents/apiautomationbibit"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/adinda.lizarika/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="24.0.1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="68.0"/>
+  </properties>
+  <testcase name="Successfully retrieve all posts" classname="Retrieve Posts" time="0.926">
+    <system-out><![CDATA[Response status code: 200
+Response status code verified: 200
+Post 1 has ID: 1
+Post 2 has ID: 2
+Post 3 has ID: 3
+Post 4 has ID: 4
+Post 5 has ID: 5
+Post 6 has ID: 6
+Post 7 has ID: 7
+Post 8 has ID: 8
+Post 9 has ID: 9
+Post 10 has ID: 10
+Post 11 has ID: 11
+Post 12 has ID: 12
+Post 13 has ID: 13
+Post 14 has ID: 14
+Post 15 has ID: 15
+Post 16 has ID: 16
+Post 17 has ID: 17
+Post 18 has ID: 18
+Post 19 has ID: 19
+Post 20 has ID: 20
+Post 21 has ID: 21
+Post 22 has ID: 22
+Post 23 has ID: 23
+Post 24 has ID: 24
+Post 25 has ID: 25
+Post 26 has ID: 26
+Post 27 has ID: 27
+Post 28 has ID: 28
+Post 29 has ID: 29
+Post 30 has ID: 30
+Post 31 has ID: 31
+Post 32 has ID: 32
+Post 33 has ID: 33
+Post 34 has ID: 34
+Post 35 has ID: 35
+Post 36 has ID: 36
+Post 37 has ID: 37
+Post 38 has ID: 38
+Post 39 has ID: 39
+Post 40 has ID: 40
+Post 41 has ID: 41
+Post 42 has ID: 42
+Post 43 has ID: 43
+Post 44 has ID: 44
+Post 45 has ID: 45
+Post 46 has ID: 46
+Post 47 has ID: 47
+Post 48 has ID: 48
+Post 49 has ID: 49
+Post 50 has ID: 50
+Post 51 has ID: 51
+Post 52 has ID: 52
+Post 53 has ID: 53
+Post 54 has ID: 54
+Post 55 has ID: 55
+Post 56 has ID: 56
+Post 57 has ID: 57
+Post 58 has ID: 58
+Post 59 has ID: 59
+Post 60 has ID: 60
+Post 61 has ID: 61
+Post 62 has ID: 62
+Post 63 has ID: 63
+Post 64 has ID: 64
+Post 65 has ID: 65
+Post 66 has ID: 66
+Post 67 has ID: 67
+Post 68 has ID: 68
+Post 69 has ID: 69
+Post 70 has ID: 70
+Post 71 has ID: 71
+Post 72 has ID: 72
+Post 73 has ID: 73
+Post 74 has ID: 74
+Post 75 has ID: 75
+Post 76 has ID: 76
+Post 77 has ID: 77
+Post 78 has ID: 78
+Post 79 has ID: 79
+Post 80 has ID: 80
+Post 81 has ID: 81
+Post 82 has ID: 82
+Post 83 has ID: 83
+Post 84 has ID: 84
+Post 85 has ID: 85
+Post 86 has ID: 86
+Post 87 has ID: 87
+Post 88 has ID: 88
+Post 89 has ID: 89
+Post 90 has ID: 90
+Post 91 has ID: 91
+Post 92 has ID: 92
+Post 93 has ID: 93
+Post 94 has ID: 94
+Post 95 has ID: 95
+Post 96 has ID: 96
+Post 97 has ID: 97
+Post 98 has ID: 98
+Post 99 has ID: 99
+Post 100 has ID: 100
+All 100 posts have non-null ID fields
+The response matches the posts JSON schema
+]]></system-out>
+  </testcase>
+</testsuite>

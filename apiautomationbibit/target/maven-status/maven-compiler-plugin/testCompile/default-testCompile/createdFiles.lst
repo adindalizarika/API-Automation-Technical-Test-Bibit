@@ -1,0 +1,9 @@
+tests/RetrievePostsTest.class
+steps/CreatePostSteps.class
+steps/DeletePostSteps.class
+tests/DeletePostTest.class
+utils/JsonSchemaValidatorUtil.class
+tests/CreatePostTest.class
+tests/UpdatePostTest.class
+steps/UpdatePostSteps.class
+steps/RetrievePostsSteps.class
